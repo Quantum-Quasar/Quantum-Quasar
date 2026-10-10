@@ -24,7 +24,7 @@
 
 | Project | What it is | Stack |
 |:---|:---|:---|
-| [**Brücke**](https://github.com/Quantum-Quasar/brucke) | German acquisition via the **Second High German Consonant Shift** — realize you already know hundreds of German words from English cognates. Multi-modal spaced repetition, full SSG, 234 automated tests. | `TypeScript` `Next.js 16` `React 19` `Tailwind v4` `Bun` `Vitest` |
+| [**Brücke**](https://github.com/Quantum-Quasar/brucke) | German acquisition via the **Second High German Consonant Shift** — realize you already know hundreds of German words from English cognates. Multi-modal spaced repetition, full SSG, 234 automated tests. **[▶ live demo](https://brucke-ten.vercel.app)** | `TypeScript` `Next.js 16` `React 19` `Tailwind v4` `Bun` `Vitest` |
 | [**tnes**](https://github.com/Quantum-Quasar/tines) | A fork of the `hnb` console outliner (via Tines): autosave-on-Enter, session restore, drop-in compatible with the same `~/.tines` database. | `C` `Shell` `autotools` |
 | [**jee**](https://github.com/Quantum-Quasar/jee) | JEE-Mains-style mock exam portal — a single HTML file with a dark glassmorphism UI. | `HTML` `Tailwind` |
 | [**opnsrc-physics**](https://github.com/Quantum-Quasar/opnsrc-physics) | Open-source physics: mirror of *The Feynman Lectures* Vol. III, Ch. 1 — *Quantum Behavior*. | `HTML` |
