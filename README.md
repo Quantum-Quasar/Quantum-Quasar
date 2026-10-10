@@ -52,14 +52,13 @@
 
 Cards below regenerate daily from a self-hosted [metrics](.github/workflows/metrics.yml) + [snake](.github/workflows/snake.yml) workflow — no external stat services to break.
 
-<img src="https://raw.githubusercontent.com/Quantum-Quasar/Quantum-Quasar/main/metrics.svg" alt="Metrics: monthly commit totals, commits by day-of-week and hour of day, languages, achievements, featured repos" width="880">
+<img src="https://raw.githubusercontent.com/Quantum-Quasar/Quantum-Quasar/main/metrics.svg" alt="Metrics: contributions calendar, lines pushed, languages, issues/PRs, featured repos" width="880">
 
 <details open>
 <summary>want raw numbers?</summary>
 
-- 📅 monthly totals & contribution mix — top of the card above
-- 🧭 **commits by day-of-week × hour-of-day** — the *Coding habits* charts, my actual working rhythm
-- 💬 issues/PRs I've opened, achievements, most-used languages — rest of the card
+- 📆 **Contributions calendar** (full history, 2025 + 2026) — one square = one day, shade = how many commits I made that day
+- 📈 lines pushed, most-used languages, featured repos, open issues/PRs — rest of the card
 </details>
 
 #### 🐍 contribution graph, eaten slowly
@@ -77,7 +76,7 @@ one square = one day. brighter = more of my day got committed.
 <details>
 <summary>⚙️ how the cards work</summary>
 
-- [`metrics.yml`](.github/workflows/metrics.yml) → [`lowlighter/metrics`](https://github.com/lowlighter/metrics): renders `metrics.svg` from the GitHub API (monthly commit totals, coding habits, languages, achievements, featured repos) and commits it back here every morning.
+- [`metrics.yml`](.github/workflows/metrics.yml) → [`lowlighter/metrics`](https://github.com/lowlighter/metrics): renders `metrics.svg` from the GitHub API (full-history contribution calendar, lines pushed, languages, issue/PR follow-up, featured repos) and commits it back here every morning.
 - [`snake.yml`](.github/workflows/snake.yml) → [`Platane/snk`](https://github.com/Platane/snk): turns my contribution calendar into a snake animation pushed to the `output` branch, themed for light/dark.
 - both images are plain SVG files in this repo, so they always load — no external stat-site rate limits, ever.
 </details>
